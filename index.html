@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Agence Paris</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <a href="#">Louer une voiture</a>
+                    <a href="#">Louer une utilitaire</a>
+                    <a href="#">Réserver un chauffeur</a>
+                    <a href="#">Découvrez nos agences</a>
+                    <a href="#">Mon compte</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <h1>Bienvenue à bord</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="slide_background p-relative">
+                <img class="contenant" src="img/background.jpg" alt="voitures">
+                <img class="contenant" src="img/background.jpg" alt="voitures">
+                <img class="contenant" src="img/background.jpg" alt="voitures">
+            </div>
+
+            <form class="row row-cols-xl-auto g-3 align-items-center justify-content-center  m-auto ">
+                <div class="col-12">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select" id="inlineFormSelectPref">
+                        <option selected>Adresse de départ</option>
+                        <option value="#">Paris</option>
+                        <option value="#">Lyon</option>
+                        <option value="#">Marseille</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select" id="debut">
+                        <option selected>Début de location</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select" id="fin">
+                        <option selected>Fin de location</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+
+            </form>
+
+        </div>
+    </header>
+    <main>
+        <!-- div et non section après passage validator w3 -->
+        <div class="row justify-content-center">
+
+            <article class="row col-10 justify-content-center">
+                <div class="small_slide col-md-5 p-4  p-3 mb-5 bg-body rounded ">
+                    <img src="img/vehicule1.png" alt="peugot-208">
+                    <img src="img/vehicule2.png" alt="ford-focus">
+                    <img src="img/vehicule3.png" alt="Audi">
+                    <img src="img/vehicule4.png" alt="Opel-moka">
+                </div>
+                <div class="col-md-5 p-4  p-3 mb-5 bg-body rounded ">
+                    <h2>Peugeot 208</h2>
+                    <p>Diesel, 5portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                    <p>999€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </article>
+
+            <article class="row col-10 justify-content-center">
+                <div class="small_slide col-md-5 p-4  p-3 mb-5 bg-body rounded ">
+                    <img src="img/vehicule2.png" alt="ford-focus">
+                    <img src="img/vehicule1.png" alt="peugot-208">
+                    <img src="img/vehicule3.png" alt="Audi">
+                    <img src="img/vehicule4.png" alt="Opel-moka">
+                </div>
+                <div class="col-md-5 p-4  p-3 mb-5 bg-body rounded ">
+                    <h2>Ford Focus</h2>
+                    <p>Diesel, 5portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                    <p>999€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+
+            </article>
+
+            <article class="row col-10 justify-content-center">
+                <div class="small_slide col-md-5 p-4  p-3 mb-5 bg-body rounded main__art">
+                    <img src="img/vehicule3.png" alt="Audi">
+                    <img src="img/vehicule2.png" alt="ford-focus">
+                    <img src="img/vehicule1.png" alt="peugot-208">
+                    <img src="img/vehicule4.png" alt="Opel-moka">
+                </div>
+                <div class="col-md-5 p-4  p-3 mb-5 bg-body rounded main__art">
+                    <h2>Audi A1</h2>
+                    <p>Diesel, 5portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                    <p>1100€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </article>
+
+            <article class="row col-10 justify-content-center">
+                <div class="small_slide col-md-5 p-4  p-3 mb-5 bg-body rounded main__art">
+                    <img src="img/vehicule4.png" alt="Opel-moka">
+                    <img src="img/vehicule2.png" alt="ford-focus">
+                    <img src="img/vehicule3.png" alt="Audi">
+                    <img src="img/vehicule1.png" alt="peugot-208">
+                </div>
+                <div class="col-md-5 p-4  p-3 mb-5 bg-body rounded main__art">
+                    <h2>Opel Mokka</h2>
+                    <p>Diesel, 5portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                    <p>1150€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="row m-auto justify-content-center">
+            <img class="col-md-2 p-4  p-3 mb-5 rounded " src="img/agence.jpg" alt="agence">
+            <div class="col-md-3 p-4  p-3 mb-5 rounded">
+                <p>Notre Agence de Paris <br>
+                    300 boulevard de Vaugirar 75015 Paris</p>
+                <p>Ouvert 7j/7 de 09h à13H et de 14h à 20h</p>
+                <p>01 49 78 21 33 <br>
+                    contact@vtc.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

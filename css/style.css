@@ -1,0 +1,58 @@
+/* css général */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+/* couleur */
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+h1{
+    color: white;
+}
+.f-300{
+    flex:0 1 300px;
+}
+/* Slide */
+.small_slide{
+    
+        width: 20%;
+        
+    }
+    
+    .slick-next:before{
+        content: '\0025BA';
+        color: black;
+    }
+    
+    .slick-prev:before{
+        content: '\0025C4';
+        color: black;
+    }
+
+
+/* 
+    /* position */
+ .p-relative{
+
+    position: relative;
+ }
+
+ .p-absolute{
+     position:absolute;
+     left: 50vh;
+    
+
+ } 
+
+
